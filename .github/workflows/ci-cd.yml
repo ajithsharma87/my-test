@@ -12,7 +12,7 @@ on:
 # Define the jobs in the workflow
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: Ubuntu 22.04.3 LTS
 
     steps:
     # Check out the repository's code
@@ -44,5 +44,6 @@ jobs:
 
     # Deploy to a server or cloud (e.g., AWS, Heroku)
     - name: Deploy to Production
-      run: echo "Deploying to production server..."  # Replace with actual deployment steps
+    #  run: echo "Deploying to production server..."  # Replace with actual deployment steps
+      run: git 
 
